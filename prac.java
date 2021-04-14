@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class HelloWorld{
     public static void main(String[] args) {
 
@@ -81,9 +79,9 @@ class HelloWorld{
             default:
             size = "Unknown";
             break;
+            
         }
     System.out.println("Size: " + size);*/
-
 
 //------------Java for-each Loop-------------------------
         int[] numbers = {3, 5, 7, -5};    //creating an array
@@ -91,7 +89,6 @@ class HelloWorld{
         for (int number: numbers){      //iterating through the array
             System.out.println(number);
         }
-
 
     }
 } 
