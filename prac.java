@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class HelloWorld{
     public static void main(String[] args) {
 
@@ -84,11 +86,55 @@ class HelloWorld{
     System.out.println("Size: " + size);*/
 
 //------------Java for-each Loop-------------------------
-        int[] numbers = {3, 5, 7, -5};    //creating an array
+       /* int[] numbers = {3, 5, 7, -5};    //creating an array
 
         for (int number: numbers){      //iterating through the array
             System.out.println(number);
+        }*/
+
+//------------Java for-each Loop 2-------------------------
+  /*  char[] vowels = {'a', 'b', 'c', 'd', 'e', 'f'};
+
+    for (char item: vowels){
+        System.out.println(item);
+    }*/
+
+//------------Sum of Positive Numbers Only----------------------
+    /*int sum = 0;
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Enter a new number: ");
+    int number = input.nextInt();
+
+    while (number >= 0){
+        sum += number;
+
+        System.out.println("Enter a number");
+        number = input.nextInt();
+    }
+    System.out.println("Sum = " +sum);
+    input.close();*/
+
+//------------break Statement----------------------
+    /*for (int i = 0; i <=10; i++){
+        if (i == 5){
+            break;
         }
+        System.out.println(i);
+    }*/
+    
+//------------labeled break Statement----------------------
+    first:
+    for (int i = 0; i < 5; i++){
+        second:
+        for (int j = 1; j < 3; j++){
+            System.out.println("i = " + i + "; j = " + j);
+
+            if (i ==2){
+                break first;
+            }
+        }
+    }
 
     }
 } 
