@@ -44,7 +44,7 @@ public class prac2 {
         }*/
 
 //---------------for each loop for 3D array---------------------------    
-        int [][][] test = {
+        /*int [][][] test = {
             {
                 {1, -2, 3}, {2, 3, 4}
             },
@@ -53,6 +53,21 @@ public class prac2 {
             }
         };
 
-        
+        for (int [][] array2D : test){
+            for (int [] array1D : array2D){
+                for (int item : array1D){
+                    System.out.println(item);
+                }
+            }
+        }*/
+
+        int [] numbers = {1, 2, 3, 4, 5, 6};
+        int [] positiveNumbers = numbers;    // copying arrays
+
+        numbers[0] = -1;
+
+        for (int number: positiveNumbers) {
+            System.out.print(number + ", ");
+        }
     }
 }
