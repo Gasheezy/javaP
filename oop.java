@@ -98,7 +98,7 @@ public static void main(String[] args) {
 }*/
 
 //---------------Join two Strings-------------------
-class Main{
+/*class Main{
     public static void main(String[] args) {      
         String first = "Java ", second = "programming";
 
@@ -107,4 +107,4 @@ class Main{
     System.out.println("Joined String is " +first.concat(second));
     }
     
-}
+}*/
